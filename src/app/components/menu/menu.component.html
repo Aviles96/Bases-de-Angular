@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <!-- El uso de las llaves cuadradas indica que esta enlazando a ese elemento -->
+    <a [routerLink]="ruta.path"
+        class="list-group-item"
+        *ngFor="let ruta of rutas">
+        {{ ruta.name}}
+    </a>
+</ul>
